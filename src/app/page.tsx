@@ -48,7 +48,7 @@ export default function Home() {
           <h2>
             Resume <span className={"fa fa-download"}></span>
           </h2>
-          <p>Let's get in touch.</p>
+          <p>Get in touch.</p>
         </a>
       </div>
     </main>
