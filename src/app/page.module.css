@@ -91,6 +91,7 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
+  animation: blurAnimation 6s ease-in-out infinite alternate-reverse;
 }
 
 .center::after {
@@ -98,6 +99,7 @@
   width: 240px;
   height: 180px;
   z-index: -1;
+  animation: blurAnimation 9s ease-in-out infinite alternate;
 }
 
 .center::before,
@@ -230,5 +232,17 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes blurAnimation {
+  0% {
+      filter: blur(45px);
+  }
+  70% {
+      filter: blur(100px);
+  }
+  100% {
+      filter: blur(45px);
   }
 }
