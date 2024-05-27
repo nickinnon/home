@@ -99,7 +99,7 @@
   width: 240px;
   height: 180px;
   z-index: -1;
-  animation: blurAnimation 9s ease-in-out infinite alternate;
+  animation: blurAnimation 8s ease-in-out infinite alternate;
 }
 
 .center::before,
