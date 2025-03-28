@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://www.linkedin.com/in/nickinnon/details/experience/"
+          href="https://www.linkedin.com/in/nickinnon"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
